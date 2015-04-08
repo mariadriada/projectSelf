@@ -1,0 +1,131 @@
+
+@import "container";
+@import "fonts";
+@import "icon-logo";
+@import "menu";
+@import "banner";
+@import "ui-components/boxinformationbgi";  
+@import "ui-components/sliderplane";
+@import "ui-components/sliderChangeInformation";  
+@import "ui-components/followus";  
+@import "media-queries";    
+
+ 
+ 
+
+header {
+	background-color: #1C221E;
+	height: 100px;
+	display: flex;
+	padding: 5px;	
+}
+
+.navbar-default {
+	background-color: #1C221E;
+}
+
+
+footer {
+
+	background-color: #1C221E;
+	widht: 100%;
+	height: 150px;
+	font-family: 'Roboto Condensed', sans-serif; 
+
+
+	.p{
+
+		padding:5px;
+		padding-left: 100px;
+	}
+
+	.p1{
+		margin-top: 8px;
+		padding-top:56px;
+		font-size: initial;
+	}
+
+	.p2{
+		font-size: x-small;
+	}
+}
+
+//Tools
+
+
+.cgris{
+	color:1C221E;
+}
+.gris{
+	background-color: 1C221E;
+}
+
+.white{
+	background-color: white;
+}
+
+.red{ 
+	background-color: red;
+}
+
+.black{
+	background-color: black;
+}
+
+
+.blue{
+	background-color: blue;
+}
+
+.green{
+	background-color: #00A064;
+}
+
+.green-1{
+	background-color: #6B8041;
+}
+
+.cviolet{
+	color: #704B77;
+}
+
+.violet{
+	background-color: #704B77;
+}
+
+.cwhite{
+	color: white;
+}
+.text1{
+}
+
+.text2{
+	color: #BFC8C0;
+}
+
+.col-1-1{
+	width:100%;
+}
+
+.center{
+	margin: 0 auto;
+}
+
+.text-center{
+	text-align:center;
+}
+
+.pad{
+	padding:5px;
+}
+
+.w80{
+	widht:80%;
+}
+
+//Columns
+
+.col100p{
+	width:100%;
+	heinht:auto;
+}

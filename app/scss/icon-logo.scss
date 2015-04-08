@@ -1,0 +1,51 @@
+
+$col-1-4:	25%;
+$col-1-1:	100%;
+
+.logo{	
+	width: $col-1-4;
+	background-image: url("../resources/img/logo.jpg");
+	background-size: $col-1-1;
+	background-repeat: no-repeat;
+}
+
+
+.icon-lang{
+	width:20%;
+}
+
+.btn{
+	background-color: #431D46;
+	margin-top:15px;
+}
+
+
+.button-change{
+	width:100px;
+	height:50px;
+	display:inline-flex;
+	margin-top: 20px;
+}
+
+
+.button-change .btn-cg{
+	border: 2px solid white; 
+	width: 20px;
+	height: 20px; 
+	border-radus: 15px !important;	
+	border: 1px solid white;
+	border-radius: 25px;
+	margin: 5px;
+}
+
+
+.btn-cg:hover{
+	width: 25px;
+	height: 25px; 
+}
+
+/* .icon-circle-right {
+	font-size: 48px;
+	color: white;
+	z-index: 20;
+} */

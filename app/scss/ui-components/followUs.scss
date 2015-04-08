@@ -1,0 +1,47 @@
+.follow-us
+{
+	background-color: #704B77;	
+	position: relative;
+	top: -346px;
+	left:0;
+	margin-top: 46px;
+	width: 100%; 
+
+
+	.box-information
+	{
+		margin:0;
+		font-weight: inherit;		
+		height: 200px; 
+		width:80%;
+		margin:0 auto;
+
+		
+		.t1
+		{
+			padding-top: 59px;
+			font-size: 46px;
+			font-weight: inherit;
+			padding-bootom: 25px;
+		}
+
+		.buttons
+		{
+			margin: -80px;
+
+		.icon
+			{
+				font-size: 31px;
+				color: white;
+				padding: 10px;
+				display: -webkit-inline-box;
+			}
+		}
+
+		.icon:hover{
+			font-size: 35px;
+		}
+	}
+}
+
+

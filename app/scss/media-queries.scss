@@ -1,0 +1,35 @@
+@media only screen and (max-width: 600px) {	 	 
+	 .follow-us {	
+
+	 	background-color: blue;	 	 
+	 }	
+
+	
+	 .slider-plane-container {
+
+		.slider-plane {
+			width: 100%;			
+			float: left;
+		}
+
+	 } 
+
+	 .banner {
+	 	display: list-item;
+
+	 	.box-slider-opacity-1 {
+				position: relative;
+				top: -296px;
+				left: 2%;
+			
+
+			}
+
+			.box-slider-1 {
+				position: relative;
+				top: 8px;
+				left: 2%;
+			
+			}
+	 	} 
+	}

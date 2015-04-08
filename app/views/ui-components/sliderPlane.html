@@ -1,0 +1,41 @@
+
+<div class="col100p" >	
+
+
+	<div class="slider-plane-container" >
+
+		<div class="slider-plane" ng-repeat="item in data.articles ">
+
+			
+				<!-- Truncate!. Because not is possible the implementary  of the directive on directive with angular Js.   (IF IS POSSIBLE)-->
+
+				<!--
+				Not posibble
+					<box-information-bgi>
+					</box-information-bgi>
+
+				28-02-2015 --- EVERITHING IS POSSIBLE !!!!!
+					If it's possible to implement using the param (transclude) on directive creation and adding in the template the label(<ng-transclude></ng-transclude>)
+				-->
+
+				<div ng-show="{{ !item.type }}">
+					<box-information-bgi img="{{ item.img }}"  title1="{{ item.title1 }}" title2="{{ item.title2 }}" title3="{{ item.title3 }}" classopacity="{{ item.classopacity }}" class1="{{ item.class1 }}" class2="{{ item.class2 }}" class3="{{ item.class3 }}" class4="{{ item.class4 }}" icontext="{{ icontext }}">
+					</box-information-bgi>
+				</div> 
+
+				<div ng-show="{{ item.maps }}">
+					<box-maps>
+					</box-maps>
+				</div> 
+				
+				<div ng-show="{{ item.sci }}">	
+					<slider-change-information></slider-change-information>
+				</div> 
+
+				<div ng-show="{{ item.follow }}">
+					<follow-us></follow-us>
+				</div>
+				
+	    </div>
+	</div>	
+</div>

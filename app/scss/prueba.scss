@@ -1,0 +1,71 @@
+
+
+.box-information-bgi{
+	width: 100%;
+	height:300px;
+	margin-top:45px;
+	border:1px solid red;
+
+	.box{
+
+		img{
+			width: 100%;
+			height: 100%;
+			padding: 0;
+			position: relative;
+			top:0;
+			left:0;
+			-moz-opacity: 0.70;
+			-khtml-opacity: 0.70;
+			opacity: 0.70;
+			-ms-filter: "progid:DXImageTransform.Microsoft.Alpha" Opacity=70;
+			filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+			filter: alpha(opacity=70);
+		}
+
+		.level{
+			
+			width: 100%;
+			height: 100%;
+			padding: 0;
+			position: relative;
+			top:0;
+			left:0;
+
+			.title1{
+				font-size: 48px;
+				font-weight: 300;
+				font-weight: 100;
+				letter-spacing: 7px;
+				width: 100%;
+				height: 50px;
+				text-align: center;
+				font-size: initial;
+				position: relative;
+				top:-200px;
+			}
+
+			.title2{
+				font-size: 34px;
+				font-weight: 700;
+				font-weight: 100;
+				letter-spacing: 5px;
+				text-align: center;
+				position: relative;
+				top:-210px;
+			}
+
+			.icon-text{
+				font-size: 25px;
+				font-weight: 700;
+				font-weight: 100;
+				letter-spacing: 5px;
+				text-align: center;
+				position: relative;
+				top:-210px;
+				}	
+		}
+
+
+	}
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Project Web UI using new tools and frameworks">
+	<meta name="viewport" content="width=device-width">
+	<meta name="autor" content="Maria Giraldo | mariagiraldo4@gmail.com | http://co.linkedin.com/in/mariadriada/en ">
+	<meta name="keywords" content="">
+	<title>Anyos Park</title>
+
+	<link rel="stylesheet" href="css/dist/bootstrap.min.css">
+	 
+	<script type="text/javascript" src="scripts/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/dist/bootstrap.min.js"></script>
+	<script type="text/javascript" src="scripts/dist/angular.min.js"></script>
+	<script type="text/javascript" src="scripts/dist/angular-route.min.js"></script>
+
+	<script type="text/javascript" src="scripts/src/app.js"></script>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/dist/style.iconmoon.css">
+	 
+</head>
+<body ng-app="app">
+
+	<header class="gris ">	
+		<section class="logo"></section>
+		
+		<section class="menu">	
+
+			<nav class="navbar navbar-default" role="navigation">
+			  <div class="navbar-header">
+			    <button type="button" class="navbar-toggle" data-toggle="collapse"
+			            data-target=".navbar-ex1-collapse">
+			      <span class="sr-only">Desplegar navegación</span>
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>
+			    </button>			  
+			  </div>
+			 
+			  <div class="collapse navbar-collapse navbar-ex1-collapse">
+			    			 
+			    <ul class="nav nav-pills ">
+					<li lass="active"><a href="">HOME</a></li>
+					<li><a href="">DEALS</a></li>
+					<li><a href="">HOTEL & APARTMENT</a></li>
+					<li><a href="">PICS</a></li>
+					<li><a href="">SERVICES</a></li>
+					<li><a href="">MEETING</a></li>
+					<li><a href="">ANDORRA</a></li>
+					<li><a href="">CONTACT</a></li>
+					<li><a href="">MY BOOKINGS</a></li>			
+				</ul> 
+
+			  </div>
+			</nav>
+		</section>
+		
+		<section class="icon-lang">
+			<div class="text1 cwhite">OFFICIAL WEBSITE</div>
+			<div class="text2">Best price online guaranteed</div>
+		</section>
+	</header>	
+
+	<!-- main container-->
+	<nav class="container-fluid main-container">
+		
+
+		<div class="banner" ng-controller="t_bannerCtrl">
+			
+
+			<div id="slider">
+				<img src="resources/img/b1.jpg">
+				<img src="resources/img/b2.jpg">
+				<img src="resources/img/b3.jpg">
+
+				<div class="btn-slider-next  icon-circle-right icon-slider" ng-click="console.log('click next');" type="next"></div>
+				<div class="btn-slider-back icon-circle-left icon-slider" type="back"></div>
+			</div>
+
+
+			<!-- Slider bgc-change on banner-->
+			<slider-change-bgc>
+			</slider-change-bgc> 
+
+			<!-- Box for user access on banner-->
+			<access>
+			</access>			
+		</div>
+				
+		<!-- Welcome text in /home -->
+
+		<!-- Articles in /home-->
+		
+	</nav>
+	<!-- End main container-->
+
+	
+	<!-- Dinamic container -->
+	<div ng-view class="viewContentDinamic">
+
+	</div>
+
+
+
+	 <footer class="gris cwhite">
+		<div class="col-1-1 p p1 ">
+			Crta.d'Anyós - La Massana AD400 - Principal d'Andorra - Pirineus | T. 00376 737173 | F. 00376 83633 | info@anyospark.com
+		</div>
+		<div class=" p p2">
+			Languages:Español . English . Deutsch . Nederlans . Aviso legal .Newsletter . By Royback
+		</div>
+	</footer> 
+	
+
+</body>
+
+</html>

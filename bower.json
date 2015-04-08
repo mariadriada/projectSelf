@@ -1,0 +1,12 @@
+{
+  "name": "oneProject",
+  "version": "0.0.0",
+  "description": "Project web UI using new tools and frameworks",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "/",
+  "dependencies": {
+    "angular": "~1.3.15",
+    "bootstrap": "~3.3.4"
+  }
+}
