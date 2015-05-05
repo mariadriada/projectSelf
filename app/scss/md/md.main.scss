@@ -1,13 +1,34 @@
-@import "variables";
-@import "md.colors";
-@import "md.font";
+@import "md.sizes" 		;
+@import "md.variables" 	;
+@import "md.colors" 	;
+@import "md.font" 		;
 
-
-html {
-	background-color: red;
+/* Body */
+.body {
+	background-color 	: 	$bg-body 		;
 }
+/* End Body */
 
-.logo {
 
+/* Slogan */
+.slogan {
+	background-color 	: 	$bg-slogan 		;
+	min-height 				: 	$h-slogan 		;
+	width 				: 	$w-general 		;
+	font-family 		: 	$font-slabo 	;
+	font-size 			: 	$fs-xx-medium 	;
+	text-align 			: 	right 			;
+	vertical-align 		: 	middle 			;	
+	color 				: 	$c-slogan 		;
+	text-shadow 		:   $ts-slogan 		;
+	padding   			: 	$p-slogan 		;
 }
+/* End Slogan */
+
+
+/* Footer
+.footer {
+
+} */
+/* End Footer */
 

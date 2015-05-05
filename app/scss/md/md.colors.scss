@@ -1,14 +1,35 @@
 /* Primary colors: green, black, gray, yellow*/
 
-/* $white 	: 	#FFFFFF;
-$green 	: 	#29EC23;
-$black	: 	#000000; 	
-$gray	: 	#3E483D;		
-$yellow : 	#FFFF00;
- */
+$white 			: 	#FFFFFF;
+$green 			: 	#29EC23;
+$black			: 	#000000; 	
+$gray			: 	#3E483D;		
+$yellow 		: 	#FFFF00;
+$fucsia			: 	#F5A9D0;
 
+
+/* Background */
+
+$bg-body		: 	$white;		//Background body
+$bg-slogan		: 	$fucsia;	//Background slogan
+$bg-footer 		: 	$gray; 		//Background footer
+
+//Shadow
+$c-violet 		:  	#FF00E1;	// Letter shadow
+
+/* End Background */ 
+
+
+/* Letter color */
+$c-slogan 		: 	$white;		//Letter color slogan
+/* End Letter color */
+
+
+/* Letter:  border, padding  */
+$bl-slogan 		: 	$black;		//
+$ts-slogan 		: 	2px 3px 3px $c-violet;
+$p-slogan 		: 	0 10px 0 0;
+/* End Letter border */
 
 
  
-.bgcolor1 	{ background-color : $green; }
-.color2 	{ color : }

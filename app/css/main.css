@@ -1,21 +1,42 @@
 @import url(http://fonts.googleapis.com/css?family=Slabo+27px);
 /*Import framework*/
+/****************  Size of the components  ***************/
+/**********************  Container size  ***********************/
+/********************** End Container size  ***********************/
+/**********************  Font size  ***********************/
+/********************** End Font size  ***********************/
+/*  Colors */
 /* Primary colors: green, black, gray, yellow*/
-/* $white 	: 	#FFFFFF;
-$green 	: 	#29EC23;
-$black	: 	#000000; 	
-$gray	: 	#3E483D;		
-$yellow : 	#FFFF00;
- */
-.bgcolor1 {
-  background-color: #29EC23; }
+/* Background */
+/* End Background */
+/* Letter color */
+/* End Letter color */
+/* Letter:  border, padding  */
+/* End Letter border */
+/* Body */
+.body {
+  background-color: #FFFFFF; }
 
-.f-banner-1 {
-  font-family: 'Slabo 27px', serif; }
+/* End Body */
+/* Slogan */
+.slogan {
+  background-color: #F5A9D0;
+  min-height: 30px;
+  width: 100%;
+  font-family: 'Slabo', serif;
+  font-size: 18px;
+  text-align: right;
+  vertical-align: middle;
+  color: #FFFFFF;
+  text-shadow: 2px 3px 3px #FF00E1;
+  padding: 0 10px 0 0; }
 
-html {
-  background-color: red; }
+/* End Slogan */
+/* Footer
+.footer {
 
+} */
+/* End Footer */
 /* 
 @import "container";
 @import "fonts";

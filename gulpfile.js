@@ -99,7 +99,7 @@ gulp.task('public-scripts', function(){
 gulp.task('watch', function(){
 	//Reload Templates and Scripts
 	gulp.watch(['./app/*.html', 'app/scripts/src/*.js', './app/views/**/*.html'], reload);
-	gulp.watch('./app/scss/*.scss', ['sass', 'sassmin']);  
+	gulp.watch('./app/scss/**/*.scss', ['sass', 'sassmin']);  
 	gulp.watch('./app/scripts/src/*.js', ['scripts', 'uglify']);
 
 });
